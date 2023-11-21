@@ -321,8 +321,7 @@ body{
 }
 
 .book .right .chair .row li:hover {
-    background: cyan;
-       
+    background: cyan;       
     color: #000;    
 }
 
@@ -500,8 +499,7 @@ body{
 }
 
 .book .right .ticket .tic .tic_details{
-    
-    background-position: center;
+    background: url('img/leo 3.jpg') center -130px/cover;
 }
 
 .book .right .ticket .tic .barcode .card{
