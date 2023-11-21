@@ -545,7 +545,7 @@ document.getElementById('book_ticket').addEventListener('click', () => {
                         <svg id="${seat_sr}${seat_no}barcode"></svg>
                         <h5>SHAKTHI CINEMA</h5>
                     </div>
-                    <div class="tic_details" style="background-image: url('leo 3.jpg')">
+                    <div class="tic_details">
                         <div class="type"> 4DX </div>
                         <h5 class="pvr"><span> Shakthi</span>Cinema</h5>
                         <h1> Leo </h1>
