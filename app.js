@@ -462,7 +462,7 @@ let addSeats = (arr) => {
 }
 
 let data = pvr.filter(obj => obj.date == main_date && obj.movie == url_segment[1]);
-console.log(data);
+// console.log(data);
 
 document.getElementById('title').innerText = data[0].movie;
 document.getElementById('poster').src = data[0].img;
@@ -508,8 +508,8 @@ document.getElementById('book_ticket').addEventListener('click', () => {
         let getData = pvr.map((obj) => {
             if (
                 obj.movie === url_segment[1] && obj.date === main_date
-            ){
-                obj[seat_sr].push[seat_no];
+            ) {
+                obj[seat_sr].push(+seat_no);
             }
             return obj;
         });
@@ -517,7 +517,7 @@ document.getElementById('book_ticket').addEventListener('click', () => {
         // console.log(getData);
 
        document.getElementById('chair').innerHTML = '';
-       let data = getData.filter(obj => obj.date === main_date && obj.movie === url_segment[1]);
+       let data = getData.filter(obj => obj.date == main_date && obj.movie == url_segment[1]);
        addSeats(data);
 
 
