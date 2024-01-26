@@ -535,7 +535,7 @@ document.getElementById('book_ticket').addEventListener('click', () => {
                     <div class="barcode">
                         <div class="card">
                             <h6>ROW ${seat_sr.toLocaleLowerCase()}</h6>
-                            <h6>${main_date} November 2023</h6>
+                            <h6>${main_date} February 2024</h6>
                         </div>
                         
                         <div class="card">
