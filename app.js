@@ -560,7 +560,7 @@ document.getElementById('book_ticket').addEventListener('click', () => {
                             </div>
                             <div class="seat_cr">
                                 <h6>DATE</h6>
-                                <h6>${main_date} <sub>sep</sub></h6>
+                                <h6>${main_date} <sub>Feb</sub></h6>
                             </div>
                             <div class="seat_cr">
                                 <h6>TIME</h6>
@@ -572,7 +572,7 @@ document.getElementById('book_ticket').addEventListener('click', () => {
         document.getElementById('ticket').appendChild(tic); 
         
         JsBarcode(`#${seat_sr}${seat_no}barcode`,
-        `${seat_sr.toLocaleUpperCase()}${seat_no}${seat_price}${main_date}112023`);
+        `${seat_sr.toLocaleUpperCase()}${seat_no}${seat_price}${main_date}022024`);
 
     })
 })
